@@ -1,0 +1,19 @@
+.crossit__button {
+    background-color: white;
+    border: 1px solid #204080;
+    border-radius: 5px;
+    color: #204080;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+
+.crossit__button:active {
+    background-color: #204080;
+    border-color: white;
+    color: white;
+}
+
+.crossit__button::-moz-focus-inner {
+    border: 0;
+}
